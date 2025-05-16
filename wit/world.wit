@@ -1,0 +1,13 @@
+package grafbase:test;
+
+interface test {
+    record meow-meow {
+        purr: string,
+        meow: string,
+        hiss: list<u8>
+    }
+}
+
+world kekw {
+    use test.{meow-meow};
+}

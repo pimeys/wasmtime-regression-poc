@@ -1,0 +1,7 @@
+[package]
+name = "wasmtime-regression-poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wasmtime = "32.0.0"
